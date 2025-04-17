@@ -1,0 +1,18 @@
+
+
+function cd {
+    builtin cd "$@" && ls && pwd
+}
+
+alias Src='source ~/.bashrc'
+
+alias rm='rm -i'
+alias du1='du --max-depth=1 -h'
+alias md='mkdir'
+alias c='clear'
+alias v='vim'
+alias du1='du --max-depth=1 -h'
+alias h='history'
+alias lmg_scl='lmgrd -c $LM_LICENSE_FILE'
+alias dve='dve -full64'
+alias vcs='vcs -full64'
